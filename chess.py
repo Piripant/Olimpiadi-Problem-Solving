@@ -49,7 +49,7 @@ def find_all_paths(chessboard, moves, pos, end_pos, searched=[], prize=0):
 
     return returns
 
-# Utilizzo: variablie_mosse = set_moves(['mossaproibila1', 'mossaproibila2', etc...])
+# Utilizzo: variablie_mosse = set_moves(['mossa_proibita1', 'mossa_proibita2', etc...])
 moves = set_moves(['oso', 'sso', 'sse', 'ese'])
 
 # Utilizzo: variabile_scacchiera = init_chess(lunghezza, altezza)
